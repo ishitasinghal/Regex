@@ -8,3 +8,11 @@ if(re.search('\W',string1)):
   print("Contains non-alphanumeric character")
 else:
   print("Only aplhanumeric characters")
+
+#2
+import re
+string1 = "ishitasinghal08gmailcom"
+if(re.search('\W',string1)):
+  print("Contains non-alphanumeric character")
+else:
+  print("Only aplhanumeric characters")
