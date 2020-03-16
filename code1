@@ -1,3 +1,10 @@
 Problem Statement
 Write a Python program to check that a string contains only a certain set of 
 characters (in this case a-z, A-Z and 0-9).
+
+import re
+string1 = "ishitasinghal08@gmail.com"
+if(re.search('\W').string1):
+  print("Contains non-alphanumeric character")
+else:
+  print("Only aplhanumeric characters")
